@@ -50,7 +50,7 @@ public class MyFileWorker {
                 }
             }
         } catch (IOException ex) {
-            Logger.getLogger(Worker.class.getName()).log(Level.SEVERE, null, ex);
+            System.out.println("Error: "+ ex);
         }
         return listAll;
     }
